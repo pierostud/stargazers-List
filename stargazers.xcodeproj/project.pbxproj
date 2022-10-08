@@ -76,6 +76,7 @@
 		7FBF721728EDD879007BA214 /* StargazersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazersVM.swift; sourceTree = "<group>"; };
 		7FBF721928EDD9A5007BA214 /* Stargazer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stargazer.swift; sourceTree = "<group>"; };
 		7FC38DC628ED97850083A2E3 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		7FCA7A7328F1BE4A00A94D05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7FE6A84228F174DA009334DC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		7FF91AE628ED581D00213F15 /* RequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
 		7FFC960128F068280091B7B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 		7F48676B28EB3CC80081AF36 = {
 			isa = PBXGroup;
 			children = (
+				7FCA7A7328F1BE4A00A94D05 /* README.md */,
 				7F48677628EB3CC80081AF36 /* stargazers */,
 				7F48678728EB3CCA0081AF36 /* stargazersTests */,
 				7F48679128EB3CCA0081AF36 /* stargazersUITests */,
