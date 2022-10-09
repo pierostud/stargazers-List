@@ -36,6 +36,7 @@ struct RepoSearchScreen: View {
                 }
                 .navigationTitle("Repositories")
             }
+            WelcomeView()
         }
     }
 }

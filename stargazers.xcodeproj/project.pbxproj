@@ -16,8 +16,8 @@
 		7F4867A328EB3D810081AF36 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4867A228EB3D810081AF36 /* NetworkManager.swift */; };
 		7F4867A628EB3E2B0081AF36 /* Costant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4867A528EB3E2B0081AF36 /* Costant.swift */; };
 		7F4867A928EB41CA0081AF36 /* RepositoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4867A828EB41CA0081AF36 /* RepositoryVM.swift */; };
-		7F4867AC28EB438D0081AF36 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 7F4867AB28EB438D0081AF36 /* netfox */; };
 		7F4B036128EDCED80053BB9F /* StargazersLisScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B036028EDCED80053BB9F /* StargazersLisScreen.swift */; };
+		7F53A76C28F2B8740057176B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53A76B28F2B8740057176B /* WelcomeView.swift */; };
 		7F788D5728EC3E0F00E2BF83 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F788D5628EC3E0F00E2BF83 /* Repository.swift */; };
 		7F788D5928EC674C00E2BF83 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F788D5828EC674C00E2BF83 /* Owner.swift */; };
 		7F788D5B28EC6A9A00E2BF83 /* RepoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F788D5A28EC6A9A00E2BF83 /* RepoCardView.swift */; };
@@ -66,6 +66,7 @@
 		7F4867A528EB3E2B0081AF36 /* Costant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costant.swift; sourceTree = "<group>"; };
 		7F4867A828EB41CA0081AF36 /* RepositoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryVM.swift; sourceTree = "<group>"; };
 		7F4B036028EDCED80053BB9F /* StargazersLisScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazersLisScreen.swift; sourceTree = "<group>"; };
+		7F53A76B28F2B8740057176B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7F788D5628EC3E0F00E2BF83 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		7F788D5828EC674C00E2BF83 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		7F788D5A28EC6A9A00E2BF83 /* RepoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCardView.swift; sourceTree = "<group>"; };
@@ -89,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4867AC28EB438D0081AF36 /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +220,7 @@
 				7F788D6028EC77A100E2BF83 /* RepoListView.swift */,
 				7FACDA1728EDEDCD00C428CB /* AvatarView.swift */,
 				7FE6A84228F174DA009334DC /* SearchBarView.swift */,
+				7F53A76B28F2B8740057176B /* WelcomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,7 +251,6 @@
 			);
 			name = stargazers;
 			packageProductDependencies = (
-				7F4867AB28EB438D0081AF36 /* netfox */,
 			);
 			productName = stargazers;
 			productReference = 7F48677428EB3CC80081AF36 /* stargazers.app */;
@@ -325,7 +325,6 @@
 			);
 			mainGroup = 7F48676B28EB3CC80081AF36;
 			packageReferences = (
-				7F4867AA28EB438D0081AF36 /* XCRemoteSwiftPackageReference "netfox" */,
 			);
 			productRefGroup = 7F48677528EB3CC80081AF36 /* Products */;
 			projectDirPath = "";
@@ -387,6 +386,7 @@
 				7F788D5728EC3E0F00E2BF83 /* Repository.swift in Sources */,
 				7FBF721828EDD879007BA214 /* StargazersVM.swift in Sources */,
 				7FFC960428F0744E0091B7B9 /* UserManager.swift in Sources */,
+				7F53A76C28F2B8740057176B /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,25 +713,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7F4867AA28EB438D0081AF36 /* XCRemoteSwiftPackageReference "netfox" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kasketis/netfox";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7F4867AB28EB438D0081AF36 /* netfox */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7F4867AA28EB438D0081AF36 /* XCRemoteSwiftPackageReference "netfox" */;
-			productName = netfox;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F48676C28EB3CC80081AF36 /* Project object */;
 }
